@@ -1,0 +1,234 @@
+{
+  "provenance": "Primary comparison on common training seeds {42,2,3}; canonical checkpoint numbers only.",
+  "common_training_seeds": [
+    42,
+    2,
+    3
+  ],
+  "rows": [
+    {
+      "family": "baseline",
+      "variant": "Vanilla DQN",
+      "seed_42": 12.8,
+      "seed_2": 14.8,
+      "seed_3": 10.7,
+      "mean": 12.766666666666667,
+      "std_across_training_seeds": 2.0502032419575715,
+      "mean_paired_delta_vs_baseline": 0.0,
+      "std_paired_delta_vs_baseline": 0.0,
+      "paired_delta_per_seed": {
+        "42": 0.0,
+        "2": 0.0,
+        "3": 0.0
+      }
+    },
+    {
+      "family": "ddqn",
+      "variant": "Double DQN",
+      "seed_42": 17.6,
+      "seed_2": 16.25,
+      "seed_3": 13.8,
+      "mean": 15.883333333333335,
+      "std_across_training_seeds": 1.9263523388345483,
+      "mean_paired_delta_vs_baseline": 3.116666666666667,
+      "std_paired_delta_vs_baseline": 1.6750621879002987,
+      "paired_delta_per_seed": {
+        "42": 4.800000000000001,
+        "2": 1.4499999999999993,
+        "3": 3.1000000000000014
+      }
+    },
+    {
+      "family": "Epsilon",
+      "variant": "Lineare",
+      "seed_42": 12.8,
+      "seed_2": 14.7,
+      "seed_3": 6.95,
+      "mean": 11.483333333333334,
+      "std_across_training_seeds": 4.039286240579309,
+      "mean_paired_delta_vs_baseline": -1.2833333333333334,
+      "std_paired_delta_vs_baseline": 2.136781068180203,
+      "paired_delta_per_seed": {
+        "42": 0.0,
+        "2": -0.10000000000000142,
+        "3": -3.749999999999999
+      }
+    },
+    {
+      "family": "Epsilon",
+      "variant": "Esponenziale",
+      "seed_42": 17.1,
+      "seed_2": 13.75,
+      "seed_3": 13.8,
+      "mean": 14.883333333333335,
+      "std_across_training_seeds": 1.919852424884094,
+      "mean_paired_delta_vs_baseline": 2.116666666666667,
+      "std_paired_delta_vs_baseline": 2.807282196953726,
+      "paired_delta_per_seed": {
+        "42": 4.300000000000001,
+        "2": -1.0500000000000007,
+        "3": 3.1000000000000014
+      }
+    },
+    {
+      "family": "Epsilon",
+      "variant": "Costante 0.10",
+      "seed_42": -2.2,
+      "seed_2": 14.2,
+      "seed_3": 13.1,
+      "mean": 8.366666666666667,
+      "std_across_training_seeds": 9.167515112250065,
+      "mean_paired_delta_vs_baseline": -4.4,
+      "std_paired_delta_vs_baseline": 9.301612763386787,
+      "paired_delta_per_seed": {
+        "42": -15.0,
+        "2": -0.6000000000000014,
+        "3": 2.4000000000000004
+      }
+    },
+    {
+      "family": "Rally",
+      "variant": "Piccolo",
+      "seed_42": 15.35,
+      "seed_2": 12.15,
+      "seed_3": 13.2,
+      "mean": 13.566666666666666,
+      "std_across_training_seeds": 1.6312060977489424,
+      "mean_paired_delta_vs_baseline": 0.7999999999999995,
+      "std_paired_delta_vs_baseline": 2.9878922336657325,
+      "paired_delta_per_seed": {
+        "42": 2.549999999999999,
+        "2": -2.6500000000000004,
+        "3": 2.5
+      }
+    },
+    {
+      "family": "Rally",
+      "variant": "Moderato",
+      "seed_42": 16.1,
+      "seed_2": 15.15,
+      "seed_3": 14.3,
+      "mean": 15.183333333333334,
+      "std_across_training_seeds": 0.9004628439493403,
+      "mean_paired_delta_vs_baseline": 2.4166666666666674,
+      "std_paired_delta_vs_baseline": 1.7960605038064104,
+      "paired_delta_per_seed": {
+        "42": 3.3000000000000007,
+        "2": 0.34999999999999964,
+        "3": 3.6000000000000014
+      }
+    },
+    {
+      "family": "Rally",
+      "variant": "Aggressivo",
+      "seed_42": 16.7,
+      "seed_2": -21.0,
+      "seed_3": 7.5,
+      "mean": 1.0666666666666664,
+      "std_across_training_seeds": 19.65612711938273,
+      "mean_paired_delta_vs_baseline": -11.7,
+      "std_paired_delta_vs_baseline": 21.170970691019342,
+      "paired_delta_per_seed": {
+        "42": 3.8999999999999986,
+        "2": -35.8,
+        "3": -3.1999999999999993
+      }
+    },
+    {
+      "family": "PBRS",
+      "variant": "0.02",
+      "seed_42": 12.95,
+      "seed_2": 14.6,
+      "seed_3": 15.45,
+      "mean": 14.333333333333332,
+      "std_across_training_seeds": 1.2711543310445563,
+      "mean_paired_delta_vs_baseline": 1.5666666666666658,
+      "std_paired_delta_vs_baseline": 2.7623963027294502,
+      "paired_delta_per_seed": {
+        "42": 0.14999999999999858,
+        "2": -0.20000000000000107,
+        "3": 4.75
+      }
+    },
+    {
+      "family": "PBRS",
+      "variant": "0.10",
+      "seed_42": 16.05,
+      "seed_2": 13.45,
+      "seed_3": 15.75,
+      "mean": 15.083333333333334,
+      "std_across_training_seeds": 1.4224392195567919,
+      "mean_paired_delta_vs_baseline": 2.3166666666666664,
+      "std_paired_delta_vs_baseline": 3.3005050118630845,
+      "paired_delta_per_seed": {
+        "42": 3.25,
+        "2": -1.3500000000000014,
+        "3": 5.050000000000001
+      }
+    },
+    {
+      "family": "PBRS",
+      "variant": "0.50",
+      "seed_42": 15.5,
+      "seed_2": 16.65,
+      "seed_3": 17.1,
+      "mean": 16.416666666666668,
+      "std_across_training_seeds": 0.8251262529657712,
+      "mean_paired_delta_vs_baseline": 3.65,
+      "std_paired_delta_vs_baseline": 2.419194080680591,
+      "paired_delta_per_seed": {
+        "42": 2.6999999999999993,
+        "2": 1.8499999999999979,
+        "3": 6.400000000000002
+      }
+    },
+    {
+      "family": "Contact",
+      "variant": "0.02",
+      "seed_42": 8.2,
+      "seed_2": 13.95,
+      "seed_3": 14.55,
+      "mean": 12.233333333333333,
+      "std_across_training_seeds": 3.505828480307235,
+      "mean_paired_delta_vs_baseline": -0.5333333333333338,
+      "std_paired_delta_vs_baseline": 4.233891039378948,
+      "paired_delta_per_seed": {
+        "42": -4.600000000000001,
+        "2": -0.8500000000000014,
+        "3": 3.8500000000000014
+      }
+    },
+    {
+      "family": "Contact",
+      "variant": "0.10",
+      "seed_42": 16.25,
+      "seed_2": 15.15,
+      "seed_3": 12.3,
+      "mean": 14.566666666666666,
+      "std_across_training_seeds": 2.0385861113363184,
+      "mean_paired_delta_vs_baseline": 1.8,
+      "std_paired_delta_vs_baseline": 1.5596473960482218,
+      "paired_delta_per_seed": {
+        "42": 3.4499999999999993,
+        "2": 0.34999999999999964,
+        "3": 1.6000000000000014
+      }
+    },
+    {
+      "family": "Contact",
+      "variant": "0.50",
+      "seed_42": 6.95,
+      "seed_2": -21.0,
+      "seed_3": 6.8,
+      "mean": -2.4166666666666665,
+      "std_across_training_seeds": 16.093813511201542,
+      "mean_paired_delta_vs_baseline": -15.183333333333332,
+      "std_paired_delta_vs_baseline": 17.88115861272231,
+      "paired_delta_per_seed": {
+        "42": -5.8500000000000005,
+        "2": -35.8,
+        "3": -3.8999999999999995
+      }
+    }
+  ]
+}

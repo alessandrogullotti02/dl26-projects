@@ -1,0 +1,3703 @@
+{
+  "provenance": "Primary quantitative comparison uses common training seeds {42,2,3}. Baseline/DDQN seed-42 checkpoint numbers come from the additional Kaggle runs; seed 2/3 and all epsilon/reward-shaping checkpoint values are preserved from the original project outputs.",
+  "random_baseline": {
+    "mean": -20.4,
+    "std_episode": 0.86,
+    "episodes": 20,
+    "evaluation_base_seed": 1000
+  },
+  "metrics": [
+    {
+      "experiment": "baseline",
+      "variant": "seeded",
+      "training_seed": 42,
+      "step": 600000,
+      "mean": -8.1,
+      "std_episode": 4.55,
+      "episodes": 20,
+      "source_notebook": "additional_seed42_kaggle_run",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "baseline",
+      "variant": "seeded",
+      "training_seed": 42,
+      "step": 900000,
+      "mean": 2.0,
+      "std_episode": 6.53,
+      "episodes": 20,
+      "source_notebook": "additional_seed42_kaggle_run",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "baseline",
+      "variant": "seeded",
+      "training_seed": 42,
+      "step": 1200000,
+      "mean": 0.65,
+      "std_episode": 4.6,
+      "episodes": 20,
+      "source_notebook": "additional_seed42_kaggle_run",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "baseline",
+      "variant": "seeded",
+      "training_seed": 42,
+      "step": 1500000,
+      "mean": 10.05,
+      "std_episode": 4.43,
+      "episodes": 20,
+      "source_notebook": "additional_seed42_kaggle_run",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "baseline",
+      "variant": "seeded",
+      "training_seed": 42,
+      "step": 1800000,
+      "mean": 12.8,
+      "std_episode": 4.92,
+      "episodes": 20,
+      "source_notebook": "additional_seed42_kaggle_run",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "baseline",
+      "variant": "seeded",
+      "training_seed": 2,
+      "step": 600000,
+      "mean": -14.55,
+      "std_episode": 2.85,
+      "episodes": 20,
+      "source_notebook": "min-obj-dl2.ipynb",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "baseline",
+      "variant": "seeded",
+      "training_seed": 2,
+      "step": 900000,
+      "mean": -4.9,
+      "std_episode": 6.03,
+      "episodes": 20,
+      "source_notebook": "min-obj-dl2.ipynb",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "baseline",
+      "variant": "seeded",
+      "training_seed": 2,
+      "step": 1200000,
+      "mean": 12.3,
+      "std_episode": 4.72,
+      "episodes": 20,
+      "source_notebook": "min-obj-dl2.ipynb",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "baseline",
+      "variant": "seeded",
+      "training_seed": 2,
+      "step": 1500000,
+      "mean": 8.75,
+      "std_episode": 6.49,
+      "episodes": 20,
+      "source_notebook": "min-obj-dl2.ipynb",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "baseline",
+      "variant": "seeded",
+      "training_seed": 2,
+      "step": 1800000,
+      "mean": 14.8,
+      "std_episode": 3.64,
+      "episodes": 20,
+      "source_notebook": "min-obj-dl2.ipynb",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "baseline",
+      "variant": "seeded",
+      "training_seed": 3,
+      "step": 600000,
+      "mean": -8.6,
+      "std_episode": 3.41,
+      "episodes": 20,
+      "source_notebook": "min-obj-dl2.ipynb",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "baseline",
+      "variant": "seeded",
+      "training_seed": 3,
+      "step": 900000,
+      "mean": 7.3,
+      "std_episode": 8.63,
+      "episodes": 20,
+      "source_notebook": "min-obj-dl2.ipynb",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "baseline",
+      "variant": "seeded",
+      "training_seed": 3,
+      "step": 1200000,
+      "mean": 11.3,
+      "std_episode": 7.16,
+      "episodes": 20,
+      "source_notebook": "min-obj-dl2.ipynb",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "baseline",
+      "variant": "seeded",
+      "training_seed": 3,
+      "step": 1500000,
+      "mean": 15.75,
+      "std_episode": 3.34,
+      "episodes": 20,
+      "source_notebook": "min-obj-dl2.ipynb",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "baseline",
+      "variant": "seeded",
+      "training_seed": 3,
+      "step": 1800000,
+      "mean": 10.7,
+      "std_episode": 6.92,
+      "episodes": 20,
+      "source_notebook": "min-obj-dl2.ipynb",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "baseline",
+      "variant": "aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 600000,
+      "mean": -10.416666666666666,
+      "std_across_training_seeds": 3.5882911438919414,
+      "n_training_seeds": 3,
+      "source_notebook": "common_seed_aggregate_from_checkpoint_metrics",
+      "uncertainty": "std_across_training_seeds",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "baseline",
+      "variant": "aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 900000,
+      "mean": 1.4666666666666666,
+      "std_across_training_seeds": 6.1174613471057855,
+      "n_training_seeds": 3,
+      "source_notebook": "common_seed_aggregate_from_checkpoint_metrics",
+      "uncertainty": "std_across_training_seeds",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "baseline",
+      "variant": "aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1200000,
+      "mean": 8.083333333333334,
+      "std_across_training_seeds": 6.456843914276799,
+      "n_training_seeds": 3,
+      "source_notebook": "common_seed_aggregate_from_checkpoint_metrics",
+      "uncertainty": "std_across_training_seeds",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "baseline",
+      "variant": "aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1500000,
+      "mean": 11.516666666666667,
+      "std_across_training_seeds": 3.7233497463081995,
+      "n_training_seeds": 3,
+      "source_notebook": "common_seed_aggregate_from_checkpoint_metrics",
+      "uncertainty": "std_across_training_seeds",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "baseline",
+      "variant": "aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1800000,
+      "mean": 12.766666666666667,
+      "std_across_training_seeds": 2.0502032419575715,
+      "n_training_seeds": 3,
+      "source_notebook": "common_seed_aggregate_from_checkpoint_metrics",
+      "uncertainty": "std_across_training_seeds",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "ddqn",
+      "variant": "seeded",
+      "training_seed": 42,
+      "step": 600000,
+      "mean": -12.15,
+      "std_episode": 3.6915442943573,
+      "episodes": 20,
+      "source_notebook": "additional_seed42_kaggle_run",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "ddqn",
+      "variant": "seeded",
+      "training_seed": 42,
+      "step": 1200000,
+      "mean": 12.850000381469727,
+      "std_episode": 6.043798446655273,
+      "episodes": 20,
+      "source_notebook": "additional_seed42_kaggle_run",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "ddqn",
+      "variant": "seeded",
+      "training_seed": 42,
+      "step": 1800000,
+      "mean": 17.600000381469727,
+      "std_episode": 2.782085657119751,
+      "episodes": 20,
+      "source_notebook": "additional_seed42_kaggle_run",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "ddqn",
+      "variant": "seeded",
+      "training_seed": 2,
+      "step": 600000,
+      "mean": -9.15,
+      "std_episode": 5.18,
+      "episodes": 20,
+      "source_notebook": "ddqn-dl2.ipynb",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "ddqn",
+      "variant": "seeded",
+      "training_seed": 2,
+      "step": 1200000,
+      "mean": 10.9,
+      "std_episode": 3.06,
+      "episodes": 20,
+      "source_notebook": "ddqn-dl2.ipynb",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "ddqn",
+      "variant": "seeded",
+      "training_seed": 2,
+      "step": 1800000,
+      "mean": 16.25,
+      "std_episode": 3.7,
+      "episodes": 20,
+      "source_notebook": "ddqn-dl2.ipynb",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "ddqn",
+      "variant": "seeded",
+      "training_seed": 3,
+      "step": 600000,
+      "mean": -11.15,
+      "std_episode": 3.28,
+      "episodes": 20,
+      "source_notebook": "ddqn-dl2.ipynb",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "ddqn",
+      "variant": "seeded",
+      "training_seed": 3,
+      "step": 1200000,
+      "mean": -3.15,
+      "std_episode": 7.85,
+      "episodes": 20,
+      "source_notebook": "ddqn-dl2.ipynb",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "ddqn",
+      "variant": "seeded",
+      "training_seed": 3,
+      "step": 1800000,
+      "mean": 13.8,
+      "std_episode": 3.74,
+      "episodes": 20,
+      "source_notebook": "ddqn-dl2.ipynb",
+      "uncertainty": "episode_std",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "ddqn",
+      "variant": "aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 600000,
+      "mean": -10.816666666666666,
+      "std_across_training_seeds": 1.5275252316519468,
+      "n_training_seeds": 3,
+      "source_notebook": "common_seed_aggregate_from_checkpoint_metrics",
+      "uncertainty": "std_across_training_seeds",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "ddqn",
+      "variant": "aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1200000,
+      "mean": 6.866666793823242,
+      "std_across_training_seeds": 8.729308999903367,
+      "n_training_seeds": 3,
+      "source_notebook": "common_seed_aggregate_from_checkpoint_metrics",
+      "uncertainty": "std_across_training_seeds",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "ddqn",
+      "variant": "aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1800000,
+      "mean": 15.88333346048991,
+      "std_across_training_seeds": 1.9263525088077063,
+      "n_training_seeds": 3,
+      "source_notebook": "common_seed_aggregate_from_checkpoint_metrics",
+      "uncertainty": "std_across_training_seeds",
+      "primary_comparison": true
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear",
+      "training_seed": 42,
+      "step": 300000,
+      "mean": -12.9,
+      "std_episode": 2.81,
+      "episodes": 10,
+      "source_notebook": "epsilon-ablation(5).ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear",
+      "training_seed": 2,
+      "step": 300000,
+      "mean": -15.5,
+      "std_episode": 2.38,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear",
+      "training_seed": 3,
+      "step": 300000,
+      "mean": -16.5,
+      "std_episode": 3.2,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 300000,
+      "mean": -14.966666666666667,
+      "std_across_training_seeds": 1.8583146486355138,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "epsilon-ablation(5).ipynb",
+        "epsilon-seed-2.ipynb",
+        "epsilon-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential",
+      "training_seed": 42,
+      "step": 300000,
+      "mean": -18.2,
+      "std_episode": 2.48,
+      "episodes": 10,
+      "source_notebook": "epsilon-ablation(5).ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential",
+      "training_seed": 2,
+      "step": 300000,
+      "mean": -13.5,
+      "std_episode": 2.66,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential",
+      "training_seed": 3,
+      "step": 300000,
+      "mean": -10.3,
+      "std_episode": 5.44,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 300000,
+      "mean": -14.0,
+      "std_across_training_seeds": 3.973663297261105,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "epsilon-ablation(5).ipynb",
+        "epsilon-seed-2.ipynb",
+        "epsilon-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant",
+      "training_seed": 42,
+      "step": 300000,
+      "mean": -13.2,
+      "std_episode": 2.4,
+      "episodes": 10,
+      "source_notebook": "epsilon-ablation(5).ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant",
+      "training_seed": 2,
+      "step": 300000,
+      "mean": -17.4,
+      "std_episode": 3.61,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant",
+      "training_seed": 3,
+      "step": 300000,
+      "mean": -9.7,
+      "std_episode": 4.38,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 300000,
+      "mean": -13.433333333333332,
+      "std_across_training_seeds": 3.855299383100271,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "epsilon-ablation(5).ipynb",
+        "epsilon-seed-2.ipynb",
+        "epsilon-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear",
+      "training_seed": 42,
+      "step": 600000,
+      "mean": -5.9,
+      "std_episode": 4.57,
+      "episodes": 10,
+      "source_notebook": "epsilon-ablation(5).ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear",
+      "training_seed": 2,
+      "step": 600000,
+      "mean": -10.2,
+      "std_episode": 3.49,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear",
+      "training_seed": 3,
+      "step": 600000,
+      "mean": -7.4,
+      "std_episode": 3.9,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 600000,
+      "mean": -7.833333333333333,
+      "std_across_training_seeds": 2.1825062046494463,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "epsilon-ablation(5).ipynb",
+        "epsilon-seed-2.ipynb",
+        "epsilon-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential",
+      "training_seed": 42,
+      "step": 600000,
+      "mean": -2.4,
+      "std_episode": 4.82,
+      "episodes": 10,
+      "source_notebook": "epsilon-ablation(5).ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential",
+      "training_seed": 2,
+      "step": 600000,
+      "mean": -5.6,
+      "std_episode": 4.59,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential",
+      "training_seed": 3,
+      "step": 600000,
+      "mean": -5.2,
+      "std_episode": 5.51,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 600000,
+      "mean": -4.3999999999999995,
+      "std_across_training_seeds": 1.7435595774162693,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "epsilon-ablation(5).ipynb",
+        "epsilon-seed-2.ipynb",
+        "epsilon-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant",
+      "training_seed": 42,
+      "step": 600000,
+      "mean": -4.9,
+      "std_episode": 4.39,
+      "episodes": 10,
+      "source_notebook": "epsilon-ablation(5).ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant",
+      "training_seed": 2,
+      "step": 600000,
+      "mean": 8.1,
+      "std_episode": 7.29,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant",
+      "training_seed": 3,
+      "step": 600000,
+      "mean": -2.9,
+      "std_episode": 4.06,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 600000,
+      "mean": 0.0999999999999998,
+      "std_across_training_seeds": 7.0,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "epsilon-ablation(5).ipynb",
+        "epsilon-seed-2.ipynb",
+        "epsilon-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear",
+      "training_seed": 42,
+      "step": 900000,
+      "mean": -1.6,
+      "std_episode": 4.98,
+      "episodes": 10,
+      "source_notebook": "epsilon-ablation(5).ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear",
+      "training_seed": 2,
+      "step": 900000,
+      "mean": -7.6,
+      "std_episode": 8.15,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear",
+      "training_seed": 3,
+      "step": 900000,
+      "mean": -5.4,
+      "std_episode": 3.5,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 900000,
+      "mean": -4.866666666666666,
+      "std_across_training_seeds": 3.035347316755256,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "epsilon-ablation(5).ipynb",
+        "epsilon-seed-2.ipynb",
+        "epsilon-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential",
+      "training_seed": 42,
+      "step": 900000,
+      "mean": 10.5,
+      "std_episode": 6.28,
+      "episodes": 10,
+      "source_notebook": "epsilon-ablation(5).ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential",
+      "training_seed": 2,
+      "step": 900000,
+      "mean": -5.5,
+      "std_episode": 6.02,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential",
+      "training_seed": 3,
+      "step": 900000,
+      "mean": 6.2,
+      "std_episode": 10.18,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 900000,
+      "mean": 3.733333333333333,
+      "std_across_training_seeds": 8.280297901243248,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "epsilon-ablation(5).ipynb",
+        "epsilon-seed-2.ipynb",
+        "epsilon-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant",
+      "training_seed": 42,
+      "step": 900000,
+      "mean": -2.5,
+      "std_episode": 7.07,
+      "episodes": 10,
+      "source_notebook": "epsilon-ablation(5).ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant",
+      "training_seed": 2,
+      "step": 900000,
+      "mean": 14.2,
+      "std_episode": 4.53,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant",
+      "training_seed": 3,
+      "step": 900000,
+      "mean": 9.7,
+      "std_episode": 3.58,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 900000,
+      "mean": 7.133333333333333,
+      "std_across_training_seeds": 8.640794716536977,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "epsilon-ablation(5).ipynb",
+        "epsilon-seed-2.ipynb",
+        "epsilon-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear",
+      "training_seed": 42,
+      "step": 1200000,
+      "mean": 4.4,
+      "std_episode": 3.85,
+      "episodes": 10,
+      "source_notebook": "epsilon-ablation(5).ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear",
+      "training_seed": 2,
+      "step": 1200000,
+      "mean": 3.0,
+      "std_episode": 9.65,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear",
+      "training_seed": 3,
+      "step": 1200000,
+      "mean": 5.2,
+      "std_episode": 6.13,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1200000,
+      "mean": 4.2,
+      "std_across_training_seeds": 1.1135528725660044,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "epsilon-ablation(5).ipynb",
+        "epsilon-seed-2.ipynb",
+        "epsilon-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential",
+      "training_seed": 42,
+      "step": 1200000,
+      "mean": 13.1,
+      "std_episode": 4.23,
+      "episodes": 10,
+      "source_notebook": "epsilon-ablation(5).ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential",
+      "training_seed": 2,
+      "step": 1200000,
+      "mean": 5.7,
+      "std_episode": 5.4,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential",
+      "training_seed": 3,
+      "step": 1200000,
+      "mean": 15.0,
+      "std_episode": 3.44,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1200000,
+      "mean": 11.266666666666666,
+      "std_across_training_seeds": 4.913586605864736,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "epsilon-ablation(5).ipynb",
+        "epsilon-seed-2.ipynb",
+        "epsilon-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant",
+      "training_seed": 42,
+      "step": 1200000,
+      "mean": -1.2,
+      "std_episode": 4.85,
+      "episodes": 10,
+      "source_notebook": "epsilon-ablation(5).ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant",
+      "training_seed": 2,
+      "step": 1200000,
+      "mean": 15.3,
+      "std_episode": 5.1,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant",
+      "training_seed": 3,
+      "step": 1200000,
+      "mean": 11.4,
+      "std_episode": 4.0,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1200000,
+      "mean": 8.5,
+      "std_across_training_seeds": 8.623804264940153,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "epsilon-ablation(5).ipynb",
+        "epsilon-seed-2.ipynb",
+        "epsilon-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear",
+      "training_seed": 42,
+      "step": 1500000,
+      "mean": 8.2,
+      "std_episode": 2.89,
+      "episodes": 10,
+      "source_notebook": "epsilon-ablation(5).ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear",
+      "training_seed": 2,
+      "step": 1500000,
+      "mean": 7.2,
+      "std_episode": 5.04,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear",
+      "training_seed": 3,
+      "step": 1500000,
+      "mean": 6.6,
+      "std_episode": 4.59,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1500000,
+      "mean": 7.333333333333333,
+      "std_across_training_seeds": 0.8082903768654759,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "epsilon-ablation(5).ipynb",
+        "epsilon-seed-2.ipynb",
+        "epsilon-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential",
+      "training_seed": 42,
+      "step": 1500000,
+      "mean": 11.6,
+      "std_episode": 4.13,
+      "episodes": 10,
+      "source_notebook": "epsilon-ablation(5).ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential",
+      "training_seed": 2,
+      "step": 1500000,
+      "mean": 16.0,
+      "std_episode": 2.19,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential",
+      "training_seed": 3,
+      "step": 1500000,
+      "mean": 14.6,
+      "std_episode": 3.9,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1500000,
+      "mean": 14.066666666666668,
+      "std_across_training_seeds": 2.247962040011649,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "epsilon-ablation(5).ipynb",
+        "epsilon-seed-2.ipynb",
+        "epsilon-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant",
+      "training_seed": 42,
+      "step": 1500000,
+      "mean": 3.3,
+      "std_episode": 4.58,
+      "episodes": 10,
+      "source_notebook": "epsilon-ablation(5).ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant",
+      "training_seed": 2,
+      "step": 1500000,
+      "mean": 13.4,
+      "std_episode": 3.47,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant",
+      "training_seed": 3,
+      "step": 1500000,
+      "mean": 15.3,
+      "std_episode": 2.87,
+      "episodes": 10,
+      "source_notebook": "epsilon-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1500000,
+      "mean": 10.666666666666666,
+      "std_across_training_seeds": 6.450064599159712,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "epsilon-ablation(5).ipynb",
+        "epsilon-seed-2.ipynb",
+        "epsilon-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear",
+      "training_seed": 42,
+      "step": 1800000,
+      "mean": 12.8,
+      "std_episode": 2.84,
+      "episodes": 20,
+      "source_notebook": "epsilon-ablation(5).ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear",
+      "training_seed": 2,
+      "step": 1800000,
+      "mean": 14.7,
+      "std_episode": 2.85,
+      "episodes": 20,
+      "source_notebook": "epsilon-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear",
+      "training_seed": 3,
+      "step": 1800000,
+      "mean": 6.95,
+      "std_episode": 5.99,
+      "episodes": 20,
+      "source_notebook": "epsilon-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "linear_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1800000,
+      "mean": 11.483333333333334,
+      "std_across_training_seeds": 4.039286240579309,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "epsilon-ablation(5).ipynb",
+        "epsilon-seed-2.ipynb",
+        "epsilon-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential",
+      "training_seed": 42,
+      "step": 1800000,
+      "mean": 17.1,
+      "std_episode": 2.32,
+      "episodes": 20,
+      "source_notebook": "epsilon-ablation(5).ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential",
+      "training_seed": 2,
+      "step": 1800000,
+      "mean": 13.75,
+      "std_episode": 3.24,
+      "episodes": 20,
+      "source_notebook": "epsilon-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential",
+      "training_seed": 3,
+      "step": 1800000,
+      "mean": 13.8,
+      "std_episode": 3.94,
+      "episodes": 20,
+      "source_notebook": "epsilon-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "exponential_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1800000,
+      "mean": 14.883333333333335,
+      "std_across_training_seeds": 1.919852424884094,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "epsilon-ablation(5).ipynb",
+        "epsilon-seed-2.ipynb",
+        "epsilon-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant",
+      "training_seed": 42,
+      "step": 1800000,
+      "mean": -2.2,
+      "std_episode": 6.18,
+      "episodes": 20,
+      "source_notebook": "epsilon-ablation(5).ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant",
+      "training_seed": 2,
+      "step": 1800000,
+      "mean": 14.2,
+      "std_episode": 2.69,
+      "episodes": 20,
+      "source_notebook": "epsilon-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant",
+      "training_seed": 3,
+      "step": 1800000,
+      "mean": 13.1,
+      "std_episode": 4.28,
+      "episodes": 20,
+      "source_notebook": "epsilon-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "epsilon",
+      "variant": "constant_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1800000,
+      "mean": 8.366666666666667,
+      "std_across_training_seeds": 9.167515112250065,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "epsilon-ablation(5).ipynb",
+        "epsilon-seed-2.ipynb",
+        "epsilon-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "rally",
+      "variant": "small",
+      "training_seed": 42,
+      "step": 600000,
+      "mean": -8.7,
+      "std_episode": 3.74,
+      "episodes": 20,
+      "source_notebook": "weights-shaping dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "small",
+      "training_seed": 2,
+      "step": 600000,
+      "mean": -10.6,
+      "std_episode": 3.07,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "small",
+      "training_seed": 3,
+      "step": 600000,
+      "mean": -7.6,
+      "std_episode": 4.48,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "small_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 600000,
+      "mean": -8.966666666666667,
+      "std_across_training_seeds": 1.517673658377628,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "weights-shaping dl2.ipynb",
+        "rally-shaping-seed-2.ipynb",
+        "rally-shaping-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "rally",
+      "variant": "moderate",
+      "training_seed": 42,
+      "step": 600000,
+      "mean": -5.8,
+      "std_episode": 5.1,
+      "episodes": 20,
+      "source_notebook": "weights-shaping dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "moderate",
+      "training_seed": 2,
+      "step": 600000,
+      "mean": -10.1,
+      "std_episode": 3.74,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "moderate",
+      "training_seed": 3,
+      "step": 600000,
+      "mean": -10.25,
+      "std_episode": 7.13,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "moderate_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 600000,
+      "mean": -8.716666666666667,
+      "std_across_training_seeds": 2.5270206436302285,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "weights-shaping dl2.ipynb",
+        "rally-shaping-seed-2.ipynb",
+        "rally-shaping-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "rally",
+      "variant": "aggressive",
+      "training_seed": 42,
+      "step": 600000,
+      "mean": -8.1,
+      "std_episode": 3.91,
+      "episodes": 20,
+      "source_notebook": "weights-shaping dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "aggressive",
+      "training_seed": 2,
+      "step": 600000,
+      "mean": -21.0,
+      "std_episode": 0.0,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "aggressive",
+      "training_seed": 3,
+      "step": 600000,
+      "mean": -12.5,
+      "std_episode": 3.88,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "aggressive_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 600000,
+      "mean": -13.866666666666667,
+      "std_across_training_seeds": 6.557692683660415,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "weights-shaping dl2.ipynb",
+        "rally-shaping-seed-2.ipynb",
+        "rally-shaping-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "rally",
+      "variant": "small",
+      "training_seed": 42,
+      "step": 900000,
+      "mean": -6.25,
+      "std_episode": 4.83,
+      "episodes": 20,
+      "source_notebook": "weights-shaping dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "small",
+      "training_seed": 2,
+      "step": 900000,
+      "mean": -3.5,
+      "std_episode": 5.89,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "small",
+      "training_seed": 3,
+      "step": 900000,
+      "mean": -4.25,
+      "std_episode": 5.14,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "small_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 900000,
+      "mean": -4.666666666666667,
+      "std_across_training_seeds": 1.4215601757693317,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "weights-shaping dl2.ipynb",
+        "rally-shaping-seed-2.ipynb",
+        "rally-shaping-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "rally",
+      "variant": "moderate",
+      "training_seed": 42,
+      "step": 900000,
+      "mean": -1.95,
+      "std_episode": 6.91,
+      "episodes": 20,
+      "source_notebook": "weights-shaping dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "moderate",
+      "training_seed": 2,
+      "step": 900000,
+      "mean": 6.3,
+      "std_episode": 8.01,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "moderate",
+      "training_seed": 3,
+      "step": 900000,
+      "mean": 0.8,
+      "std_episode": 5.61,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "moderate_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 900000,
+      "mean": 1.7166666666666666,
+      "std_across_training_seeds": 4.200694387042853,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "weights-shaping dl2.ipynb",
+        "rally-shaping-seed-2.ipynb",
+        "rally-shaping-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "rally",
+      "variant": "aggressive",
+      "training_seed": 42,
+      "step": 900000,
+      "mean": -6.35,
+      "std_episode": 4.56,
+      "episodes": 20,
+      "source_notebook": "weights-shaping dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "aggressive",
+      "training_seed": 2,
+      "step": 900000,
+      "mean": -21.0,
+      "std_episode": 0.0,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "aggressive",
+      "training_seed": 3,
+      "step": 900000,
+      "mean": 3.35,
+      "std_episode": 6.41,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "aggressive_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 900000,
+      "mean": -8.0,
+      "std_across_training_seeds": 12.258568431917325,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "weights-shaping dl2.ipynb",
+        "rally-shaping-seed-2.ipynb",
+        "rally-shaping-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "rally",
+      "variant": "small",
+      "training_seed": 42,
+      "step": 1200000,
+      "mean": 10.05,
+      "std_episode": 3.57,
+      "episodes": 20,
+      "source_notebook": "weights-shaping dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "small",
+      "training_seed": 2,
+      "step": 1200000,
+      "mean": -1.95,
+      "std_episode": 6.11,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "small",
+      "training_seed": 3,
+      "step": 1200000,
+      "mean": -0.7,
+      "std_episode": 8.31,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "small_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1200000,
+      "mean": 2.4666666666666672,
+      "std_across_training_seeds": 6.597032161004927,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "weights-shaping dl2.ipynb",
+        "rally-shaping-seed-2.ipynb",
+        "rally-shaping-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "rally",
+      "variant": "moderate",
+      "training_seed": 42,
+      "step": 1200000,
+      "mean": 13.9,
+      "std_episode": 3.85,
+      "episodes": 20,
+      "source_notebook": "weights-shaping dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "moderate",
+      "training_seed": 2,
+      "step": 1200000,
+      "mean": 2.25,
+      "std_episode": 8.56,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "moderate",
+      "training_seed": 3,
+      "step": 1200000,
+      "mean": 10.6,
+      "std_episode": 5.89,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "moderate_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1200000,
+      "mean": 8.916666666666666,
+      "std_across_training_seeds": 6.0046509751469594,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "weights-shaping dl2.ipynb",
+        "rally-shaping-seed-2.ipynb",
+        "rally-shaping-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "rally",
+      "variant": "aggressive",
+      "training_seed": 42,
+      "step": 1200000,
+      "mean": 10.95,
+      "std_episode": 4.09,
+      "episodes": 20,
+      "source_notebook": "weights-shaping dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "aggressive",
+      "training_seed": 2,
+      "step": 1200000,
+      "mean": -21.0,
+      "std_episode": 0.0,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "aggressive",
+      "training_seed": 3,
+      "step": 1200000,
+      "mean": 0.5,
+      "std_episode": 6.41,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "aggressive_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1200000,
+      "mean": -3.1833333333333336,
+      "std_across_training_seeds": 16.29036013516378,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "weights-shaping dl2.ipynb",
+        "rally-shaping-seed-2.ipynb",
+        "rally-shaping-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "rally",
+      "variant": "small",
+      "training_seed": 42,
+      "step": 1500000,
+      "mean": 13.2,
+      "std_episode": 5.42,
+      "episodes": 20,
+      "source_notebook": "weights-shaping dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "small",
+      "training_seed": 2,
+      "step": 1500000,
+      "mean": 11.9,
+      "std_episode": 3.92,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "small",
+      "training_seed": 3,
+      "step": 1500000,
+      "mean": 6.0,
+      "std_episode": 5.81,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "small_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1500000,
+      "mean": 10.366666666666667,
+      "std_across_training_seeds": 3.8370995990895693,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "weights-shaping dl2.ipynb",
+        "rally-shaping-seed-2.ipynb",
+        "rally-shaping-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "rally",
+      "variant": "moderate",
+      "training_seed": 42,
+      "step": 1500000,
+      "mean": 15.35,
+      "std_episode": 2.97,
+      "episodes": 20,
+      "source_notebook": "weights-shaping dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "moderate",
+      "training_seed": 2,
+      "step": 1500000,
+      "mean": 14.2,
+      "std_episode": 4.39,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "moderate",
+      "training_seed": 3,
+      "step": 1500000,
+      "mean": 13.2,
+      "std_episode": 3.84,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "moderate_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1500000,
+      "mean": 14.25,
+      "std_across_training_seeds": 1.075871739567501,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "weights-shaping dl2.ipynb",
+        "rally-shaping-seed-2.ipynb",
+        "rally-shaping-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "rally",
+      "variant": "aggressive",
+      "training_seed": 42,
+      "step": 1500000,
+      "mean": 16.35,
+      "std_episode": 3.07,
+      "episodes": 20,
+      "source_notebook": "weights-shaping dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "aggressive",
+      "training_seed": 2,
+      "step": 1500000,
+      "mean": -21.0,
+      "std_episode": 0.0,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "aggressive",
+      "training_seed": 3,
+      "step": 1500000,
+      "mean": 7.1,
+      "std_episode": 5.13,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "aggressive_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1500000,
+      "mean": 0.816666666666667,
+      "std_across_training_seeds": 19.4516280381189,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "weights-shaping dl2.ipynb",
+        "rally-shaping-seed-2.ipynb",
+        "rally-shaping-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "rally",
+      "variant": "small",
+      "training_seed": 42,
+      "step": 1800000,
+      "mean": 15.35,
+      "std_episode": 3.8,
+      "episodes": 20,
+      "source_notebook": "weights-shaping dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "small",
+      "training_seed": 2,
+      "step": 1800000,
+      "mean": 12.15,
+      "std_episode": 5.3,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "small",
+      "training_seed": 3,
+      "step": 1800000,
+      "mean": 13.2,
+      "std_episode": 2.62,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "small_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1800000,
+      "mean": 13.566666666666668,
+      "std_across_training_seeds": 1.6312060977489424,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "weights-shaping dl2.ipynb",
+        "rally-shaping-seed-2.ipynb",
+        "rally-shaping-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "rally",
+      "variant": "moderate",
+      "training_seed": 42,
+      "step": 1800000,
+      "mean": 16.1,
+      "std_episode": 2.64,
+      "episodes": 20,
+      "source_notebook": "weights-shaping dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "moderate",
+      "training_seed": 2,
+      "step": 1800000,
+      "mean": 15.15,
+      "std_episode": 3.54,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "moderate",
+      "training_seed": 3,
+      "step": 1800000,
+      "mean": 14.3,
+      "std_episode": 3.48,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "moderate_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1800000,
+      "mean": 15.183333333333332,
+      "std_across_training_seeds": 0.9004628439493403,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "weights-shaping dl2.ipynb",
+        "rally-shaping-seed-2.ipynb",
+        "rally-shaping-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "rally",
+      "variant": "aggressive",
+      "training_seed": 42,
+      "step": 1800000,
+      "mean": 16.7,
+      "std_episode": 2.76,
+      "episodes": 20,
+      "source_notebook": "weights-shaping dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "aggressive",
+      "training_seed": 2,
+      "step": 1800000,
+      "mean": -21.0,
+      "std_episode": 0.0,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "aggressive",
+      "training_seed": 3,
+      "step": 1800000,
+      "mean": 7.5,
+      "std_episode": 6.99,
+      "episodes": 20,
+      "source_notebook": "rally-shaping-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "rally",
+      "variant": "aggressive_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1800000,
+      "mean": 1.0666666666666664,
+      "std_across_training_seeds": 19.65612711938273,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "weights-shaping dl2.ipynb",
+        "rally-shaping-seed-2.ipynb",
+        "rally-shaping-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "potential",
+      "variant": "small",
+      "training_seed": 42,
+      "step": 600000,
+      "mean": -13.5,
+      "std_episode": 2.99,
+      "episodes": 20,
+      "source_notebook": "potential-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "small",
+      "training_seed": 2,
+      "step": 600000,
+      "mean": -7.2,
+      "std_episode": 5.43,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "small",
+      "training_seed": 3,
+      "step": 600000,
+      "mean": -8.65,
+      "std_episode": 4.94,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "small_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 600000,
+      "mean": -9.783333333333333,
+      "std_across_training_seeds": 3.2993686264698177,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "potential-reward dl2.ipynb",
+        "potential-reward-seed-2.ipynb",
+        "potential-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "potential",
+      "variant": "moderate",
+      "training_seed": 42,
+      "step": 600000,
+      "mean": -7.85,
+      "std_episode": 4.87,
+      "episodes": 20,
+      "source_notebook": "potential-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "moderate",
+      "training_seed": 2,
+      "step": 600000,
+      "mean": -9.85,
+      "std_episode": 3.92,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "moderate",
+      "training_seed": 3,
+      "step": 600000,
+      "mean": -9.85,
+      "std_episode": 3.89,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "moderate_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 600000,
+      "mean": -9.183333333333332,
+      "std_across_training_seeds": 1.1547005383792515,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "potential-reward dl2.ipynb",
+        "potential-reward-seed-2.ipynb",
+        "potential-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "potential",
+      "variant": "aggressive",
+      "training_seed": 42,
+      "step": 600000,
+      "mean": -8.65,
+      "std_episode": 3.97,
+      "episodes": 20,
+      "source_notebook": "potential-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "aggressive",
+      "training_seed": 2,
+      "step": 600000,
+      "mean": -13.95,
+      "std_episode": 3.47,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "aggressive",
+      "training_seed": 3,
+      "step": 600000,
+      "mean": -12.4,
+      "std_episode": 2.11,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "aggressive_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 600000,
+      "mean": -11.666666666666666,
+      "std_across_training_seeds": 2.725038226031578,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "potential-reward dl2.ipynb",
+        "potential-reward-seed-2.ipynb",
+        "potential-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "potential",
+      "variant": "small",
+      "training_seed": 42,
+      "step": 900000,
+      "mean": -1.25,
+      "std_episode": 5.92,
+      "episodes": 20,
+      "source_notebook": "potential-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "small",
+      "training_seed": 2,
+      "step": 900000,
+      "mean": -1.1,
+      "std_episode": 5.73,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "small",
+      "training_seed": 3,
+      "step": 900000,
+      "mean": -1.2,
+      "std_episode": 5.71,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "small_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 900000,
+      "mean": -1.1833333333333333,
+      "std_across_training_seeds": 0.07637626158259729,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "potential-reward dl2.ipynb",
+        "potential-reward-seed-2.ipynb",
+        "potential-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "potential",
+      "variant": "moderate",
+      "training_seed": 42,
+      "step": 900000,
+      "mean": 2.2,
+      "std_episode": 6.11,
+      "episodes": 20,
+      "source_notebook": "potential-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "moderate",
+      "training_seed": 2,
+      "step": 900000,
+      "mean": -4.05,
+      "std_episode": 4.15,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "moderate",
+      "training_seed": 3,
+      "step": 900000,
+      "mean": -4.3,
+      "std_episode": 6.35,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "moderate_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 900000,
+      "mean": -2.05,
+      "std_across_training_seeds": 3.6827299656640586,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "potential-reward dl2.ipynb",
+        "potential-reward-seed-2.ipynb",
+        "potential-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "potential",
+      "variant": "aggressive",
+      "training_seed": 42,
+      "step": 900000,
+      "mean": -6.6,
+      "std_episode": 7.9,
+      "episodes": 20,
+      "source_notebook": "potential-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "aggressive",
+      "training_seed": 2,
+      "step": 900000,
+      "mean": -3.6,
+      "std_episode": 5.2,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "aggressive",
+      "training_seed": 3,
+      "step": 900000,
+      "mean": -0.7,
+      "std_episode": 4.88,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "aggressive_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 900000,
+      "mean": -3.633333333333333,
+      "std_across_training_seeds": 2.950141239556732,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "potential-reward dl2.ipynb",
+        "potential-reward-seed-2.ipynb",
+        "potential-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "potential",
+      "variant": "small",
+      "training_seed": 42,
+      "step": 1200000,
+      "mean": 12.65,
+      "std_episode": 3.71,
+      "episodes": 20,
+      "source_notebook": "potential-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "small",
+      "training_seed": 2,
+      "step": 1200000,
+      "mean": 5.3,
+      "std_episode": 4.96,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "small",
+      "training_seed": 3,
+      "step": 1200000,
+      "mean": 12.35,
+      "std_episode": 5.32,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "small_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1200000,
+      "mean": 10.1,
+      "std_across_training_seeds": 4.159627387158615,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "potential-reward dl2.ipynb",
+        "potential-reward-seed-2.ipynb",
+        "potential-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "potential",
+      "variant": "moderate",
+      "training_seed": 42,
+      "step": 1200000,
+      "mean": 14.1,
+      "std_episode": 4.56,
+      "episodes": 20,
+      "source_notebook": "potential-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "moderate",
+      "training_seed": 2,
+      "step": 1200000,
+      "mean": 11.4,
+      "std_episode": 4.52,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "moderate",
+      "training_seed": 3,
+      "step": 1200000,
+      "mean": 10.25,
+      "std_episode": 7.44,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "moderate_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1200000,
+      "mean": 11.916666666666666,
+      "std_across_training_seeds": 1.9763181255388345,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "potential-reward dl2.ipynb",
+        "potential-reward-seed-2.ipynb",
+        "potential-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "potential",
+      "variant": "aggressive",
+      "training_seed": 42,
+      "step": 1200000,
+      "mean": -8.45,
+      "std_episode": 10.81,
+      "episodes": 20,
+      "source_notebook": "potential-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "aggressive",
+      "training_seed": 2,
+      "step": 1200000,
+      "mean": 1.5,
+      "std_episode": 5.06,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "aggressive",
+      "training_seed": 3,
+      "step": 1200000,
+      "mean": 5.7,
+      "std_episode": 5.75,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "aggressive_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1200000,
+      "mean": -0.41666666666666635,
+      "std_across_training_seeds": 7.267106255816914,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "potential-reward dl2.ipynb",
+        "potential-reward-seed-2.ipynb",
+        "potential-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "potential",
+      "variant": "small",
+      "training_seed": 42,
+      "step": 1500000,
+      "mean": 15.05,
+      "std_episode": 2.54,
+      "episodes": 20,
+      "source_notebook": "potential-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "small",
+      "training_seed": 2,
+      "step": 1500000,
+      "mean": 13.4,
+      "std_episode": 4.35,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "small",
+      "training_seed": 3,
+      "step": 1500000,
+      "mean": 12.75,
+      "std_episode": 5.67,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "small_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1500000,
+      "mean": 13.733333333333334,
+      "std_across_training_seeds": 1.1856784274554943,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "potential-reward dl2.ipynb",
+        "potential-reward-seed-2.ipynb",
+        "potential-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "potential",
+      "variant": "moderate",
+      "training_seed": 42,
+      "step": 1500000,
+      "mean": 11.75,
+      "std_episode": 5.66,
+      "episodes": 20,
+      "source_notebook": "potential-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "moderate",
+      "training_seed": 2,
+      "step": 1500000,
+      "mean": 11.35,
+      "std_episode": 6.97,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "moderate",
+      "training_seed": 3,
+      "step": 1500000,
+      "mean": 11.05,
+      "std_episode": 4.95,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "moderate_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1500000,
+      "mean": 11.383333333333335,
+      "std_across_training_seeds": 0.3511884584284243,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "potential-reward dl2.ipynb",
+        "potential-reward-seed-2.ipynb",
+        "potential-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "potential",
+      "variant": "aggressive",
+      "training_seed": 42,
+      "step": 1500000,
+      "mean": 12.55,
+      "std_episode": 3.93,
+      "episodes": 20,
+      "source_notebook": "potential-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "aggressive",
+      "training_seed": 2,
+      "step": 1500000,
+      "mean": 13.9,
+      "std_episode": 3.35,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "aggressive",
+      "training_seed": 3,
+      "step": 1500000,
+      "mean": 14.65,
+      "std_episode": 2.37,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "aggressive_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1500000,
+      "mean": 13.700000000000001,
+      "std_across_training_seeds": 1.064189832689638,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "potential-reward dl2.ipynb",
+        "potential-reward-seed-2.ipynb",
+        "potential-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "potential",
+      "variant": "small",
+      "training_seed": 42,
+      "step": 1800000,
+      "mean": 12.95,
+      "std_episode": 6.1,
+      "episodes": 20,
+      "source_notebook": "potential-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "small",
+      "training_seed": 2,
+      "step": 1800000,
+      "mean": 14.6,
+      "std_episode": 4.93,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "small",
+      "training_seed": 3,
+      "step": 1800000,
+      "mean": 15.45,
+      "std_episode": 3.04,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "small_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1800000,
+      "mean": 14.333333333333334,
+      "std_across_training_seeds": 1.2711543310445563,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "potential-reward dl2.ipynb",
+        "potential-reward-seed-2.ipynb",
+        "potential-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "potential",
+      "variant": "moderate",
+      "training_seed": 42,
+      "step": 1800000,
+      "mean": 16.05,
+      "std_episode": 3.43,
+      "episodes": 20,
+      "source_notebook": "potential-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "moderate",
+      "training_seed": 2,
+      "step": 1800000,
+      "mean": 13.45,
+      "std_episode": 5.37,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "moderate",
+      "training_seed": 3,
+      "step": 1800000,
+      "mean": 15.75,
+      "std_episode": 3.58,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "moderate_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1800000,
+      "mean": 15.083333333333334,
+      "std_across_training_seeds": 1.4224392195567919,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "potential-reward dl2.ipynb",
+        "potential-reward-seed-2.ipynb",
+        "potential-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "potential",
+      "variant": "aggressive",
+      "training_seed": 42,
+      "step": 1800000,
+      "mean": 15.5,
+      "std_episode": 3.12,
+      "episodes": 20,
+      "source_notebook": "potential-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "aggressive",
+      "training_seed": 2,
+      "step": 1800000,
+      "mean": 16.65,
+      "std_episode": 2.1,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "aggressive",
+      "training_seed": 3,
+      "step": 1800000,
+      "mean": 17.1,
+      "std_episode": 3.21,
+      "episodes": 20,
+      "source_notebook": "potential-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "potential",
+      "variant": "aggressive_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1800000,
+      "mean": 16.416666666666668,
+      "std_across_training_seeds": 0.8251262529657712,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "potential-reward dl2.ipynb",
+        "potential-reward-seed-2.ipynb",
+        "potential-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "contact",
+      "variant": "small",
+      "training_seed": 42,
+      "step": 600000,
+      "mean": -8.1,
+      "std_episode": 6.02,
+      "episodes": 20,
+      "source_notebook": "contact-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "small",
+      "training_seed": 2,
+      "step": 600000,
+      "mean": -9.55,
+      "std_episode": 4.03,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "small",
+      "training_seed": 3,
+      "step": 600000,
+      "mean": -6.55,
+      "std_episode": 4.28,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "small_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 600000,
+      "mean": -8.066666666666666,
+      "std_across_training_seeds": 1.5002777520623756,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "contact-reward dl2.ipynb",
+        "contact-reward-seed-2.ipynb",
+        "contact-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "contact",
+      "variant": "moderate",
+      "training_seed": 42,
+      "step": 600000,
+      "mean": -9.5,
+      "std_episode": 3.51,
+      "episodes": 20,
+      "source_notebook": "contact-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "moderate",
+      "training_seed": 2,
+      "step": 600000,
+      "mean": -11.15,
+      "std_episode": 3.42,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "moderate",
+      "training_seed": 3,
+      "step": 600000,
+      "mean": -13.0,
+      "std_episode": 3.33,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "moderate_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 600000,
+      "mean": -11.216666666666667,
+      "std_across_training_seeds": 1.7509521219420403,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "contact-reward dl2.ipynb",
+        "contact-reward-seed-2.ipynb",
+        "contact-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "contact",
+      "variant": "aggressive",
+      "training_seed": 42,
+      "step": 600000,
+      "mean": -8.05,
+      "std_episode": 3.61,
+      "episodes": 20,
+      "source_notebook": "contact-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "aggressive",
+      "training_seed": 2,
+      "step": 600000,
+      "mean": -21.0,
+      "std_episode": 0.0,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "aggressive",
+      "training_seed": 3,
+      "step": 600000,
+      "mean": -16.5,
+      "std_episode": 3.28,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "aggressive_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 600000,
+      "mean": -15.183333333333332,
+      "std_across_training_seeds": 6.574635604604511,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "contact-reward dl2.ipynb",
+        "contact-reward-seed-2.ipynb",
+        "contact-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "contact",
+      "variant": "small",
+      "training_seed": 42,
+      "step": 900000,
+      "mean": -1.15,
+      "std_episode": 4.43,
+      "episodes": 20,
+      "source_notebook": "contact-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "small",
+      "training_seed": 2,
+      "step": 900000,
+      "mean": -3.25,
+      "std_episode": 5.74,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "small",
+      "training_seed": 3,
+      "step": 900000,
+      "mean": 2.95,
+      "std_episode": 6.25,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "small_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 900000,
+      "mean": -0.4833333333333334,
+      "std_across_training_seeds": 3.153305144341939,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "contact-reward dl2.ipynb",
+        "contact-reward-seed-2.ipynb",
+        "contact-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "contact",
+      "variant": "moderate",
+      "training_seed": 42,
+      "step": 900000,
+      "mean": 2.4,
+      "std_episode": 5.49,
+      "episodes": 20,
+      "source_notebook": "contact-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "moderate",
+      "training_seed": 2,
+      "step": 900000,
+      "mean": -5.6,
+      "std_episode": 4.09,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "moderate",
+      "training_seed": 3,
+      "step": 900000,
+      "mean": -2.95,
+      "std_episode": 5.71,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "moderate_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 900000,
+      "mean": -2.0500000000000003,
+      "std_across_training_seeds": 4.075230054855799,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "contact-reward dl2.ipynb",
+        "contact-reward-seed-2.ipynb",
+        "contact-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "contact",
+      "variant": "aggressive",
+      "training_seed": 42,
+      "step": 900000,
+      "mean": -0.95,
+      "std_episode": 5.37,
+      "episodes": 20,
+      "source_notebook": "contact-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "aggressive",
+      "training_seed": 2,
+      "step": 900000,
+      "mean": -21.0,
+      "std_episode": 0.0,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "aggressive",
+      "training_seed": 3,
+      "step": 900000,
+      "mean": -3.7,
+      "std_episode": 6.77,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "aggressive_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 900000,
+      "mean": -8.549999999999999,
+      "std_across_training_seeds": 10.86933760631254,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "contact-reward dl2.ipynb",
+        "contact-reward-seed-2.ipynb",
+        "contact-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "contact",
+      "variant": "small",
+      "training_seed": 42,
+      "step": 1200000,
+      "mean": -4.05,
+      "std_episode": 5.03,
+      "episodes": 20,
+      "source_notebook": "contact-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "small",
+      "training_seed": 2,
+      "step": 1200000,
+      "mean": 0.25,
+      "std_episode": 5.8,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "small",
+      "training_seed": 3,
+      "step": 1200000,
+      "mean": 15.3,
+      "std_episode": 2.35,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "small_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1200000,
+      "mean": 3.8333333333333335,
+      "std_across_training_seeds": 10.160503596443109,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "contact-reward dl2.ipynb",
+        "contact-reward-seed-2.ipynb",
+        "contact-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "contact",
+      "variant": "moderate",
+      "training_seed": 42,
+      "step": 1200000,
+      "mean": 11.8,
+      "std_episode": 4.4,
+      "episodes": 20,
+      "source_notebook": "contact-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "moderate",
+      "training_seed": 2,
+      "step": 1200000,
+      "mean": 7.1,
+      "std_episode": 4.76,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "moderate",
+      "training_seed": 3,
+      "step": 1200000,
+      "mean": -1.05,
+      "std_episode": 5.99,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "moderate_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1200000,
+      "mean": 5.949999999999999,
+      "std_across_training_seeds": 6.5017305388642495,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "contact-reward dl2.ipynb",
+        "contact-reward-seed-2.ipynb",
+        "contact-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "contact",
+      "variant": "aggressive",
+      "training_seed": 42,
+      "step": 1200000,
+      "mean": 3.05,
+      "std_episode": 5.58,
+      "episodes": 20,
+      "source_notebook": "contact-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "aggressive",
+      "training_seed": 2,
+      "step": 1200000,
+      "mean": -21.0,
+      "std_episode": 0.0,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "aggressive",
+      "training_seed": 3,
+      "step": 1200000,
+      "mean": -2.05,
+      "std_episode": 7.05,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "aggressive_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1200000,
+      "mean": -6.666666666666667,
+      "std_across_training_seeds": 12.672246577988187,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "contact-reward dl2.ipynb",
+        "contact-reward-seed-2.ipynb",
+        "contact-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "contact",
+      "variant": "small",
+      "training_seed": 42,
+      "step": 1500000,
+      "mean": 1.8,
+      "std_episode": 5.71,
+      "episodes": 20,
+      "source_notebook": "contact-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "small",
+      "training_seed": 2,
+      "step": 1500000,
+      "mean": 14.55,
+      "std_episode": 3.26,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "small",
+      "training_seed": 3,
+      "step": 1500000,
+      "mean": 15.0,
+      "std_episode": 4.54,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "small_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1500000,
+      "mean": 10.450000000000001,
+      "std_across_training_seeds": 7.494497981853087,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "contact-reward dl2.ipynb",
+        "contact-reward-seed-2.ipynb",
+        "contact-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "contact",
+      "variant": "moderate",
+      "training_seed": 42,
+      "step": 1500000,
+      "mean": 16.9,
+      "std_episode": 2.9,
+      "episodes": 20,
+      "source_notebook": "contact-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "moderate",
+      "training_seed": 2,
+      "step": 1500000,
+      "mean": 8.15,
+      "std_episode": 4.73,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "moderate",
+      "training_seed": 3,
+      "step": 1500000,
+      "mean": 9.45,
+      "std_episode": 4.85,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "moderate_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1500000,
+      "mean": 11.5,
+      "std_across_training_seeds": 4.72149340781071,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "contact-reward dl2.ipynb",
+        "contact-reward-seed-2.ipynb",
+        "contact-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "contact",
+      "variant": "aggressive",
+      "training_seed": 42,
+      "step": 1500000,
+      "mean": 0.75,
+      "std_episode": 6.3,
+      "episodes": 20,
+      "source_notebook": "contact-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "aggressive",
+      "training_seed": 2,
+      "step": 1500000,
+      "mean": -21.0,
+      "std_episode": 0.0,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "aggressive",
+      "training_seed": 3,
+      "step": 1500000,
+      "mean": 4.15,
+      "std_episode": 4.25,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "aggressive_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1500000,
+      "mean": -5.366666666666667,
+      "std_across_training_seeds": 13.645176192828487,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "contact-reward dl2.ipynb",
+        "contact-reward-seed-2.ipynb",
+        "contact-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "contact",
+      "variant": "small",
+      "training_seed": 42,
+      "step": 1800000,
+      "mean": 8.2,
+      "std_episode": 4.52,
+      "episodes": 20,
+      "source_notebook": "contact-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "small",
+      "training_seed": 2,
+      "step": 1800000,
+      "mean": 13.95,
+      "std_episode": 5.38,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "small",
+      "training_seed": 3,
+      "step": 1800000,
+      "mean": 14.55,
+      "std_episode": 2.85,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "small_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1800000,
+      "mean": 12.233333333333334,
+      "std_across_training_seeds": 3.5058284803072346,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "contact-reward dl2.ipynb",
+        "contact-reward-seed-2.ipynb",
+        "contact-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "contact",
+      "variant": "moderate",
+      "training_seed": 42,
+      "step": 1800000,
+      "mean": 16.25,
+      "std_episode": 3.45,
+      "episodes": 20,
+      "source_notebook": "contact-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "moderate",
+      "training_seed": 2,
+      "step": 1800000,
+      "mean": 15.15,
+      "std_episode": 2.74,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "moderate",
+      "training_seed": 3,
+      "step": 1800000,
+      "mean": 12.3,
+      "std_episode": 4.22,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "moderate_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1800000,
+      "mean": 14.566666666666668,
+      "std_across_training_seeds": 2.0385861113363184,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "contact-reward dl2.ipynb",
+        "contact-reward-seed-2.ipynb",
+        "contact-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    },
+    {
+      "experiment": "contact",
+      "variant": "aggressive",
+      "training_seed": 42,
+      "step": 1800000,
+      "mean": 6.95,
+      "std_episode": 4.02,
+      "episodes": 20,
+      "source_notebook": "contact-reward dl2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "aggressive",
+      "training_seed": 2,
+      "step": 1800000,
+      "mean": -21.0,
+      "std_episode": 0.0,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-2.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "aggressive",
+      "training_seed": 3,
+      "step": 1800000,
+      "mean": 6.8,
+      "std_episode": 3.71,
+      "episodes": 20,
+      "source_notebook": "contact-reward-seed-3.ipynb",
+      "uncertainty": "episode_std"
+    },
+    {
+      "experiment": "contact",
+      "variant": "aggressive_aggregate",
+      "training_seeds": [
+        42,
+        2,
+        3
+      ],
+      "step": 1800000,
+      "mean": -2.416666666666667,
+      "std_across_training_seeds": 16.093813511201542,
+      "n_training_seeds": 3,
+      "source_notebooks": [
+        "contact-reward dl2.ipynb",
+        "contact-reward-seed-2.ipynb",
+        "contact-reward-seed-3.ipynb"
+      ],
+      "uncertainty": "std_across_training_seeds"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "experiment": "baseline",
+  "source_notebook": "min-obj-dl2.ipynb",
+  "parameters": {
+    "BUFFER_CAPACITY": 100000,
+    "TOTAL_STEPS": 1800000,
+    "LEARNING_STARTS": 20000,
+    "TRAIN_FREQ": 4,
+    "EPS_START": 1.0,
+    "EPS_END": 0.01,
+    "DECAY_STEPS": 800000,
+    "GAMMA": 0.99,
+    "BATCH_SIZE": 64,
+    "LR": 0.0001,
+    "TARGET_UPDATE": 2000,
+    "SEEDS": [
+      42,
+      2,
+      3
+    ],
+    "EVAL_BASE_SEED": 1000,
+    "N_EVAL_EPISODES": 20,
+    "CHECKPOINTS": [
+      600000,
+      900000,
+      1200000,
+      1500000,
+      1800000
+    ]
+  },
+  "environment": {
+    "id": "ALE/Pong-v5",
+    "frameskip": 1,
+    "noop_max": 30,
+    "frame_skip": 4,
+    "screen_size": 84,
+    "terminal_on_life_loss": false,
+    "grayscale_obs": true,
+    "scale_obs": false,
+    "stack_size": 4,
+    "repeat_action_probability": 0.25
+  },
+  "output_dir": "experiments/logs/baseline",
+  "checkpoint_policy": "original",
+  "source_notebook_project_path": "notebooks/baseline_analysis.ipynb",
+  "seed_alignment_note": "Primary comparison seed set aligned across all experiment families: {42,2,3}."
+}

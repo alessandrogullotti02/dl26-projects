@@ -1,60 +1,106 @@
-> **NOTE: This file is the official template for the technical README of your repository.**  
-> Before starting, make sure you have carefully read the **[INSTRUCTIONS.md](INSTRUCTIONS.md)**.  
-> This file must contain **exclusively the technical aspects** of the project (Setup, Run, baseline Results). The textual and theoretical report should be placed in the **[`docs/REPORT.md`](docs/REPORT.md)** file.
-> *Delete this note block before submission.*
+# Atari Pong — DQN, Double DQN e Reward Shaping
 
-# [Assigned Project Title]
+Progetto di Deep Learning / Reinforcement Learning su `ALE/Pong-v5` con Vanilla DQN, Double DQN, ablation della schedule epsilon-greedy, tre famiglie di reward shaping e diagnostiche post-hoc della policy.
 
-[![Report](https://img.shields.io/badge/Paper-REPORT.md-blue)](docs/REPORT.md)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+## Stato sperimentale
 
-## 👥 Group and Project Information
-- **Group ID**: [E.g., G07]
-- **Project ID**: [E.g., 1]
+Tutte le famiglie considerate nel report dispongono di tre training indipendenti
 
-## 📝 Project Description
-A brief paragraph (3-4 lines) that visually and concisely describes the project, the main implemented model, and the task addressed. 
-*(Imagine this is the technical Abstract of your GitHub repo).*
+- Tutte le famiglie nel confronto quantitativo primario: seed `42, 2, 3`
 
-> 📖 **Official Report**: For all theoretical details, performance analysis, the architecture used, and group contributions, please refer to our formal paper: **[REPORT.md](docs/REPORT.md)**.
+Le statistiche `media ± std` riportate nel report sono calcolate sulle **medie di evaluation dei training seed**, usando la deviazione standard campionaria tra seed (`ddof=1`). Non sono medie delle deviazioni standard tra episodi
 
-## 🛠 Technical Reproducibility
-
-### 1. Data and Environment Setup
-
-**Prerequisites:**
-Explain how the reader can install the environment to run your code.
+## Setup
 
 ```bash
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
 conda env create -f environment.yml
-conda activate dl-project
+conda activate pong-dqn
 ```
 
-**Dataset:**
-Explain in 2 lines where to download the data from and in which folder it needs to reside (e.g., `data/raw/`).
-
-### 2. Network Training
-Provide the **exact commands** to start the training.
-
-**Baseline Training:**
-```bash
-python -m src.training.train --config experiments/configs/baseline.yaml
-```
-
-**Improved Model Training:**
-```bash
-python -m src.training.train --config experiments/configs/model_v1.yaml
-```
-
-### 3. Evaluation
-Provide the commands to reproduce the numbers in your summary table.
+oppure
 
 ```bash
-python -m src.evaluation.evaluate --config experiments/configs/model_v1.yaml
+python -m pip install -r requirements.txt
 ```
 
----
+## Training modulare
 
-*For the declaration of individual tasks and the use of AI, refer to `docs/REPORT.md`.*
+Esempio di dry-run, che valida configurazione e parametri senza avviare il training
+
+```bash
+python -m src.training.run --config experiments/configs/baseline.json --dry-run
+```
+
+Training completi
+
+```bash
+python -m src.training.run --config experiments/configs/baseline.json
+python -m src.training.run --config experiments/configs/ddqn.json
+python -m src.training.run --config experiments/configs/epsilon.json
+python -m src.training.run --config experiments/configs/rally.json
+python -m src.training.run --config experiments/configs/potential.json
+python -m src.training.run --config experiments/configs/contact.json
+```
+
+Per eseguire un singolo seed in una sessione separata
+
+```bash
+python -m src.training.run \
+  --config experiments/configs/rally.json \
+  --seed 3 \
+  --output-dir experiments/logs/rally_seed3
+```
+
+## Rigenerazione delle figure
+
+Curve DQN e Double DQN, più il confronto paired al checkpoint finale, dai risultati machine-readable. Lo script aggiorna direttamente le figure canoniche in `figures/report/`.
+
+```bash
+python scripts/plot_dqn_ddqn_multiseed.py
+```
+
+Curve aggregate di epsilon, rally, PBRS e contact direttamente dai 12 notebook eseguiti
+
+```bash
+python scripts/plot_multiseed_from_notebooks.py
+```
+
+In alternativa le stesse quattro curve possono essere rigenerate dal JSON aggregato
+
+```bash
+python scripts/plot_multiseed_results.py
+```
+
+Le sole figure mantenute nel repository sono quelle citate nella relazione o utilizzate nella presentazione; sono raccolte in `figures/report/`.
+
+## Risultati finali principali
+
+| Esperimento | Return finale medio ± std tra seed |
+|---|---:|
+| Vanilla DQN | 12.77 ± 2.05 |
+| Double DQN | 15.88 ± 1.93 |
+| Epsilon esponenziale | 14.88 ± 1.92 |
+| Rally moderato | 15.18 ± 0.90 |
+| PBRS `kappa=0.50` | 16.42 ± 0.83 |
+| Contact `c=0.10` | 14.57 ± 2.04 |
+
+Con soli tre training seed, questi confronti restano descrittivi e non costituiscono evidenza inferenziale forte. Il confronto primario è però ora paired seed-by-seed perché tutte le famiglie usano lo stesso insieme `{42, 2, 3}`. Per Double DQN rispetto alla baseline, i delta finali sui tre seed sono `+4.80`, `+1.45` e `+3.10`, con media `+3.12` e deviazione standard campionaria `1.68`.
+
+## Struttura del repository
+
+- `src/` implementazione modulare dell'ambiente, DQN, training, reward shaping ed evaluation
+- `experiments/configs/` configurazioni riproducibili delle sei suite
+- `notebooks/` notebook eseguiti principali, mantenuti come evidenza sperimentale; il codice di training canonico risiede in `src/`
+- `notebooks/replicates/` repliche seed `2` e `3` necessarie al confronto multi-seed
+- `scripts/` script per rigenerare le visualizzazioni multi-seed
+- `docs/REPORT.md` relazione organizzata secondo il template del corso
+- `docs/results/` metriche aggregate e dati machine-readable; `seed42_checkpoint_additions.json` contiene solo i valori numerici importati dalle due run aggiuntive
+- `figures/report/` figure canoniche citate nella relazione, inclusa la visualizzazione paired DQN/DDQN
+- `data/` placeholder: i dati di training sono generati online da ALE e non esiste un dataset statico da versionare
+
+## Documentazione
+
+- [Report](docs/REPORT.md)
+- [Risultati](docs/results/SUMMARY.md)
+- [Presentazione](docs/Pong_presentazione.pptx)
+

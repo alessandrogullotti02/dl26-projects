@@ -1,0 +1,64 @@
+{
+  "experiment": "epsilon",
+  "source_notebook": "epsilon-ablation(5).ipynb",
+  "parameters": {
+    "BUFFER_CAPACITY": 100000,
+    "TOTAL_STEPS": 1800000,
+    "LEARNING_STARTS": 20000,
+    "TRAIN_FREQ": 4,
+    "EPS_START": 1.0,
+    "EPS_END": 0.01,
+    "DECAY_STEPS": 800000,
+    "GAMMA": 0.99,
+    "BATCH_SIZE": 64,
+    "LR": 0.0001,
+    "TARGET_UPDATE": 2000,
+    "CHECKPOINTS": [
+      300000,
+      600000,
+      900000,
+      1200000,
+      1500000,
+      1800000
+    ],
+    "EVAL_EPISODES": 10,
+    "FINAL_EVAL_EPISODES": 20,
+    "CONSTANT_EPS": 0.1,
+    "EXPONENTIAL_K": 3.0,
+    "STRATEGIES": [
+      "linear",
+      "exponential",
+      "constant"
+    ],
+    "STRATEGY_LABELS": {
+      "linear": "Linear decay",
+      "exponential": "Exponential decay",
+      "constant": "Constant epsilon=0.1"
+    },
+    "SEEDS": [
+      42,
+      2,
+      3
+    ]
+  },
+  "environment": {
+    "id": "ALE/Pong-v5",
+    "frameskip": 1,
+    "noop_max": 30,
+    "frame_skip": 4,
+    "screen_size": 84,
+    "terminal_on_life_loss": false,
+    "grayscale_obs": true,
+    "scale_obs": false,
+    "stack_size": 4,
+    "repeat_action_probability": 0.25
+  },
+  "output_dir": "experiments/logs/epsilon",
+  "checkpoint_policy": "original",
+  "replicate_notebooks": [
+    "notebooks/epsilon_analysis.ipynb",
+    "notebooks/replicates/epsilon_seed2.ipynb",
+    "notebooks/replicates/epsilon_seed3.ipynb"
+  ],
+  "source_notebook_project_path": "notebooks/epsilon_analysis.ipynb"
+}

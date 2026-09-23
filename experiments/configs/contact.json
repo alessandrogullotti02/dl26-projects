@@ -1,0 +1,74 @@
+{
+  "experiment": "contact",
+  "source_notebook": "contact-reward dl2.ipynb",
+  "parameters": {
+    "BUFFER_CAPACITY": 100000,
+    "TOTAL_STEPS": 1800000,
+    "LEARNING_STARTS": 20000,
+    "TRAIN_FREQ": 4,
+    "EPS_START": 1.0,
+    "EPS_END": 0.01,
+    "DECAY_STEPS": 800000,
+    "GAMMA": 0.99,
+    "BATCH_SIZE": 64,
+    "LR": 0.0001,
+    "TARGET_UPDATE": 2000,
+    "CHECKPOINTS": [
+      600000,
+      900000,
+      1200000,
+      1500000,
+      1800000
+    ],
+    "EVAL_EPISODES": 20,
+    "SMALL_CONTACT_BONUS": 0.02,
+    "MODERATE_CONTACT_BONUS": 0.1,
+    "AGGRESSIVE_CONTACT_BONUS": 0.5,
+    "CONTACT_DETECTOR_KWARGS": {
+      "play_y": [
+        8,
+        80
+      ],
+      "ball_x": [
+        10,
+        72
+      ],
+      "player_x": [
+        72,
+        82
+      ],
+      "contrast_threshold": 35,
+      "motion_threshold": 10,
+      "max_ball_pixels": 40,
+      "min_horizontal_speed": 0.5,
+      "min_contact_x": 60.0,
+      "max_vertical_gap": 14.0
+    },
+    "CONTACT_COOLDOWN_STEPS": 3,
+    "SEEDS": [
+      42,
+      2,
+      3
+    ]
+  },
+  "environment": {
+    "id": "ALE/Pong-v5",
+    "frameskip": 1,
+    "noop_max": 30,
+    "frame_skip": 4,
+    "screen_size": 84,
+    "terminal_on_life_loss": false,
+    "grayscale_obs": true,
+    "scale_obs": false,
+    "stack_size": 4,
+    "repeat_action_probability": 0.25
+  },
+  "output_dir": "experiments/logs/contact",
+  "checkpoint_policy": "original",
+  "replicate_notebooks": [
+    "notebooks/contact_analysis.ipynb",
+    "notebooks/replicates/contact_seed2.ipynb",
+    "notebooks/replicates/contact_seed3.ipynb"
+  ],
+  "source_notebook_project_path": "notebooks/contact_analysis.ipynb"
+}

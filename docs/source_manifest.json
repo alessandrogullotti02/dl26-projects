@@ -1,0 +1,400 @@
+{
+  "schema_version": 3,
+  "notebooks": [
+    {
+      "project_path": "notebooks/baseline_analysis.ipynb",
+      "source_label": "min-obj-dl2.ipynb",
+      "sha256": "f102c3e8fc1bdfbfbf3b409b9e3706545031d2f316064e4fdc4437ac957ae279",
+      "declared_training_seeds": [
+        1,
+        2,
+        3
+      ],
+      "code_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "executed_output_cells": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "posthoc_patch": "Policy-heatmap plotting layout adjusted only; stored training/evaluation outputs unchanged"
+    },
+    {
+      "project_path": "notebooks/contact_analysis.ipynb",
+      "source_label": "contact-reward dl2.ipynb",
+      "sha256": "588a1906c78fa1fbc1ad43b8b7d148b7361950467fa9c95a6890c09d97576076",
+      "declared_training_seeds": [
+        42
+      ],
+      "code_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "executed_output_cells": [
+        0,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "project_path": "notebooks/ddqn_analysis.ipynb",
+      "source_label": "ddqn-dl2.ipynb",
+      "sha256": "e8f2b958a2f7c7da8735bd7755c0978a31df18d0e8cd99666c2e1fe51e548c42",
+      "declared_training_seeds": [
+        1,
+        2,
+        3
+      ],
+      "code_cells": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "executed_output_cells": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "project_path": "notebooks/epsilon_analysis.ipynb",
+      "source_label": "epsilon-ablation(5).ipynb",
+      "sha256": "076c446a7ed82e096e268987491f044291be43680cb364a8dcfd4c5487de8109",
+      "declared_training_seeds": [
+        42
+      ],
+      "code_cells": [
+        0
+      ],
+      "executed_output_cells": [
+        0
+      ]
+    },
+    {
+      "project_path": "notebooks/potential_analysis.ipynb",
+      "source_label": "potential-reward dl2.ipynb",
+      "sha256": "363461ad07f8809b4b5f74e5bc35f37498d167e26d66917130e5fd0e15fc3d47",
+      "declared_training_seeds": [
+        42
+      ],
+      "code_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "executed_output_cells": [
+        0,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "project_path": "notebooks/rally_analysis.ipynb",
+      "source_label": "weights-shaping dl2.ipynb",
+      "sha256": "87a5ffc730b891001c9e328b9d451839331b14a062f2937a0307b463dccfc1c4",
+      "declared_training_seeds": [
+        42
+      ],
+      "code_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "executed_output_cells": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "project_path": "notebooks/replicates/contact_seed2.ipynb",
+      "source_label": "contact seed 2 executed notebook",
+      "sha256": "497ee58ffb70c01296346c757173ff6ace509e4ad7dfe29d598bad8661ef256d",
+      "declared_training_seeds": [
+        2
+      ],
+      "code_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "executed_output_cells": [
+        0,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "project_path": "notebooks/replicates/contact_seed3.ipynb",
+      "source_label": "contact seed 3 executed notebook",
+      "sha256": "78775e4fed1daab8fdf9e663b16bff546997973fa225a897ca1c18cc5c063e69",
+      "declared_training_seeds": [
+        3
+      ],
+      "code_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "executed_output_cells": [
+        0,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "project_path": "notebooks/replicates/epsilon_seed2.ipynb",
+      "source_label": "epsilon seed 2 executed notebook",
+      "sha256": "72bd23fb07b96402e9fed839e2d062c692dd39956d36997c75e5cd340628f04e",
+      "declared_training_seeds": [
+        2
+      ],
+      "code_cells": [
+        0
+      ],
+      "executed_output_cells": [
+        0
+      ]
+    },
+    {
+      "project_path": "notebooks/replicates/epsilon_seed3.ipynb",
+      "source_label": "epsilon seed 3 executed notebook",
+      "sha256": "03a5c1dca78e38db2e0d4cf6cf3c33feef3ce83f7e8375ce3c4ef2a98d822f72",
+      "declared_training_seeds": [
+        3
+      ],
+      "code_cells": [
+        0
+      ],
+      "executed_output_cells": [
+        0
+      ]
+    },
+    {
+      "project_path": "notebooks/replicates/potential_seed2.ipynb",
+      "source_label": "PBRS seed 2 executed notebook",
+      "sha256": "9864003f22e4da8691ec8419e04fbbc096f3b0494e51f33c8eaea2b67ad51194",
+      "declared_training_seeds": [
+        2
+      ],
+      "code_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "executed_output_cells": [
+        0,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "project_path": "notebooks/replicates/potential_seed3.ipynb",
+      "source_label": "PBRS seed 3 executed notebook",
+      "sha256": "52b61fd24924cf99f8403ecc1aca9727f3f23268f69803058be18e5475b85c2e",
+      "declared_training_seeds": [
+        3
+      ],
+      "code_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "executed_output_cells": [
+        0,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "project_path": "notebooks/replicates/rally_seed2.ipynb",
+      "source_label": "rally seed 2 executed notebook",
+      "sha256": "09c33831c4aaafb036d3b9398717fd54a4ea9ae74a312bd98f86f8e736beda04",
+      "declared_training_seeds": [
+        2
+      ],
+      "code_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "executed_output_cells": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "project_path": "notebooks/replicates/rally_seed3.ipynb",
+      "source_label": "rally seed 3 executed notebook",
+      "sha256": "bae7466b1ad65d42fbb55d8663a918fa42882e0c0e91c19f78166f6c15a3c013",
+      "declared_training_seeds": [
+        3
+      ],
+      "code_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "executed_output_cells": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "additional_numeric_sources": [
+    {
+      "project_path": "docs/results/seed42_checkpoint_additions.json",
+      "scope": "Numerical evaluation checkpoints only; no weights, raw training traces, or post-hoc diagnostics imported.",
+      "experiments": [
+        {
+          "experiment": "baseline",
+          "training_seed": 42,
+          "checkpoints": [
+            600000,
+            900000,
+            1200000,
+            1500000,
+            1800000
+          ]
+        },
+        {
+          "experiment": "ddqn",
+          "training_seed": 42,
+          "checkpoints": [
+            600000,
+            1200000,
+            1800000
+          ]
+        }
+      ],
+      "evaluation_protocol": {
+        "episodes_per_checkpoint": 20,
+        "evaluation_base_seed": 1000,
+        "evaluation_seed_range": "1000-1019",
+        "policy": "greedy"
+      }
+    }
+  ],
+  "repository_cleanup": {
+    "notebook_sources": "Markdown/raw cells and Python comment tokens removed",
+    "executed_outputs_preserved": true,
+    "canonical_training_code": "src/"
+  }
+}

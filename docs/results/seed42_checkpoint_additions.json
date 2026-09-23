@@ -1,0 +1,45 @@
+{
+  "purpose": "Numerical checkpoint additions used to align the primary comparison on training seeds {42,2,3}. No weights, training traces, or other run artifacts are imported.",
+  "evaluation_protocol": {
+    "episodes_per_checkpoint": 20,
+    "evaluation_base_seed": 1000,
+    "evaluation_seeds": "1000-1019",
+    "policy": "greedy"
+  },
+  "baseline_seed_42": {
+    "600000": {
+      "mean": -8.1,
+      "episode_std": 4.55
+    },
+    "900000": {
+      "mean": 2.0,
+      "episode_std": 6.53
+    },
+    "1200000": {
+      "mean": 0.65,
+      "episode_std": 4.6
+    },
+    "1500000": {
+      "mean": 10.05,
+      "episode_std": 4.43
+    },
+    "1800000": {
+      "mean": 12.8,
+      "episode_std": 4.92
+    }
+  },
+  "ddqn_seed_42": {
+    "600000": {
+      "mean": -12.15,
+      "episode_std": 3.6915442943573
+    },
+    "1200000": {
+      "mean": 12.850000381469727,
+      "episode_std": 6.043798446655273
+    },
+    "1800000": {
+      "mean": 17.600000381469727,
+      "episode_std": 2.782085657119751
+    }
+  }
+}
